@@ -1,0 +1,156 @@
+body{
+  font-family: "Montserrat";
+  position: absolute;
+  text-align: center;
+}
+/* Headings */
+
+h1,h2,h3,h4,h5,h6{
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+}
+
+.big-heading{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+h2{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3{
+  font-size: 1.5rem;
+}
+p{
+  color: #8f8f8f;
+}
+
+
+        /* Sections */
+.white-section{
+  background-color: #fff;
+}
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+
+
+.containerFluid{
+  padding:7% 15% ;
+}
+
+.navbar{
+ padding:0px 0px 4.5rem;
+}
+
+
+
+.navbar-brand{
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: "Ubuntu"
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat-Light', sans-serif;
+}
+@media (min-width : 800px){
+.center-response{
+  text-align: left;
+}
+}
+/* download button */
+
+.download-button{
+  margin: 3% 5% 3% 0;
+}
+
+@media (min-width:800px){
+  .phone{
+    width:70%;
+    transform: rotate(30deg);
+    position: absolute;
+    z-index: 0;
+    padding-right: 8%;
+  }
+}
+
+/* icons */
+
+.icons{
+  padding-bottom: 8px;
+  display: inline-block;
+  color: #ef8172;
+
+}
+.icons:hover{
+  color: #ff4c68;
+}
+/* Features section */
+#features{
+  position: relative;
+  z-index: 1;
+}
+
+.ft{
+  padding: 5%;
+}
+
+
+/* Testimonials */
+
+#testimonials{
+  background-color: #ef8172;
+}
+
+.testimonial-image{
+  width:10%;
+  border-radius: 100%;
+  margin: 5px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.press-img{
+  width:10%;
+  margin: auto 15px;
+}
+/* Pricing */
+#pricing{
+  padding:7% 15%;
+}
+.PricingDiv{
+  padding: 3%;
+}
+
+/* Call to action */
+
+.small-head{
+  font-family: 'Montserrat-Bold',sans-serif;
+  color: #fff;
+  font-weight: 1000;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding-bottom: 20px;
+}
+
+/* Footer Section */
+#footer{
+  background-color: #fff;
+}
+.footIcon{
+  padding:20px;
+}
